@@ -1,0 +1,1 @@
+if(window.location.search === "?error=wrong_username_or_password") alert("Wrong username or password");

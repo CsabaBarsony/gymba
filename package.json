@@ -1,0 +1,37 @@
+{
+  "name": "Gymba",
+  "version": "0.0.1",
+  "description": "",
+  "main": "public/index.html",
+  "author": "B�rsony Csaba",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^9.0.3",
+    "events": "~1.0.2",
+    "flux": "~2.0.1",
+    "gulp": "^3.8.11",
+    "gulp-sass": "~1.3.3",
+    "object-assign": "~2.0.0",
+    "randomstring": "^1.0.5",
+    "reactify": "~1.1.0",
+    "underscore": "~1.8.3",
+    "vinyl-source-stream": "~1.1.0"
+  },
+  "devDependencies": {
+    "body-parser": "~1.12.0",
+    "express": "~4.11.2",
+    "path": "~0.11.14",
+    "jest-cli": "~0.4.0",
+    "react": "~0.13.2",
+    "react-tools": "~0.13.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "scriptPreprocessor": "preprocessor.js",
+    "unmockedModulePathPatterns": [
+      "react"
+    ]
+  }
+}
