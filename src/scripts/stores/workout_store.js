@@ -6,6 +6,7 @@ var Constants = require("../utils/constants");
 
 var CHANGE_EVENT = "change";
 var sets;
+var status = Constants.WorkoutStates.START;
 
 var WorkoutStore = assign({}, EventEmitter.prototype, {
 	emitChange: function(){
